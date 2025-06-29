@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>New Client - BankAG</title>
+</head>
+<body class="gradient-background">
+    <section class="login-outer-container">
+        <div class="login-container">
+            <h3>New Client Page</h3>
+            <form class="new-client-form" method="POST" action="/submit-client">
+                <input type="text" name="id" placeholder="123-456-789" required>
+                <input type="text" name="firstname" placeholder="First Name" required>
+                <input type="text" name="lastname" placeholder="Last Name" required>
+                <input type="date" name="dob" placeholder="Date of Birth" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <input type="text" name="address" placeholder="Street Address" required>
+                <input type="text" name="city" placeholder="City" required>
+                <input type="text" name="state" placeholder="State" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>&copy; 2024 BankAG. All rights reserved.</footer>
+</body>
+</html>
